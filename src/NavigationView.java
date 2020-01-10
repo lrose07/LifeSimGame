@@ -5,6 +5,6 @@ class NavigationView extends JPanel {
     NavigationView() {
         setLayout(new GridLayout(3, 3));
 
-        add(new Button("test"));
+        add(new NavButton("test"));
     }
 }
